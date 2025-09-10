@@ -1,0 +1,16 @@
+# Ignore build output directories
+/build/
+/dist/
+
+# Ignore node modules
+node_modules/
+
+# Ignore log files
+*.log
+
+# Ignore environment variables
+.env
+Test Video/
+RealLife_InstanceSegmentation_MaskRCNN.ipynb
+Video Download/
+    
