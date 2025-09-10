@@ -21,12 +21,12 @@ A video instance segmentation project using PyTorch's pre-trained Mask R-CNN mod
     <td align="center"><b>With Instance Segmentation</b></td>
   </tr>
   <tr>
-    <td><img src="Sample Video/NightLife-Original.gif" width="400"/></td>
-    <td><img src="Sample Video/NightLife_output_DistinctMask.gif" width="400"/></td>
+    <td><img src="Sample Video/NightLife-Original.gif" width="300"/></td>
+    <td><img src="Sample Video/NightLife_output_DistinctMask.gif" width="300"/></td>
   </tr>
 </table>
 
-### Before vs After Processing applying Distinct Masks
+### Before [Random Masks] vs After [Distinct Masks]
 
 <table>
   <tr>
@@ -34,8 +34,8 @@ A video instance segmentation project using PyTorch's pre-trained Mask R-CNN mod
     <td align="center"><b>With Distinct</b></td>
   </tr>
   <tr>
-    <td><img src="Sample Video/NightLife2_output_RandomMask.gif" width="400"/></td>
-    <td><img src="Sample Video/NightLife2_output_DistinctMask.gif" width="400"/></td>
+    <td><img src="Sample Video/NightLife2_output_RandomMask.gif" width="300"/></td>
+    <td><img src="Sample Video/NightLife2_output_DistinctMask.gif" width="300"/></td>
   </tr>
 </table>
 
@@ -196,4 +196,3 @@ COCO_COLORS = {
 1. Reduce `max_long_side` for faster processing
 2. Use GPU acceleration when available
 3. Process shorter video clips for testing
-4. Consider batch processing for multiple videos
